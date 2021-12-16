@@ -1,3 +1,19 @@
+#install arch
+	sudo pacman -S feh git python-pywal ttf-dejavu alacritty discord nemo htop pulseaudio pavucontrol picom dunst numlockx chromium 
+	shaur -S pulseeffects-legacy i3-gaps-rounded-git polybar whatscli sublime-text-4
+
+
+#*install GPU driver*{
+#	NVIDIA -KernelLinux : -> {
+#		sudo pacman -S nvidia nvidia-utils nvidia-settings opencl-nvidia xorg-server xorg-fonts-encodings xorg-server-common xorg-setxkbmap xorg-xauth xorg-xinit xorg-xkbcomp xorg-xmodmap xorg-xprop xorg-xrandr xorg-xrdb xorg-xset
+sudo pacman -S xorg-server xorg-fonts-encodings xorg-server-common xorg-setxkbmap xorg-xauth xorg-xinit xorg-xkbcomp xorg-xmodmap xorg-xprop xorg-xrandr xorg-xrdb xorg-xset 
+	}
+
+	setup 3 monitor -> {
+
+	}
+}
+
 mkdir -p ~/git
 cd ~/git
 
