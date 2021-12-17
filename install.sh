@@ -25,6 +25,6 @@ cd -
 ###########
 
 chmod 777 ./contInst.sh
-echo "i3-sensible-terminal -e \"./contInst.sh\"" > ~/.xinitrc
+echo "i3-sensible-terminal -e \"./contInst.sh\" & " > ~/.xinitrc
 echo "exec i3" >> ~/.xinitrc
 startx
