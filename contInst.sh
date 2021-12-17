@@ -8,17 +8,17 @@ cd -
 
 shaur -S polybar
 cd ~/.config/shaur/polybar 
-makepkg -si
+#makepkg -si
 cd -
 
 shaur -S whatscli
 cd ~/.config/shaur/whatscli 
-makepkg -si
+#makepkg -si
 cd -
 
 shaur -S sublime-text-4
 cd ~/.config/shaur/sublime-text-4 
-makepkg -si
+#makepkg -si
 cd -
 ###########
 mkdir -p zscroll
