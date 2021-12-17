@@ -23,5 +23,6 @@ makepkg -si
 cd -
 ###########
 
+chmod 777 ./contInstall
 echo > "i3-sensible-terminal -e \"./contInstall\"" > ~/.xinitrc
 echo >> "exec i3"
