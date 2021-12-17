@@ -1,3 +1,4 @@
+#!/bin/bash
 #shaur -S pulseeffects-legacy polybar whatscli sublime-text-4
 ###########
 shaur -S pulseeffects-legacy
