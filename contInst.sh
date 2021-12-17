@@ -42,6 +42,9 @@ cd -
 cd ./dmenu
 sudo make install
 cd -
+cp ./alacritty.yml ~/.alacritty.yml
+cp ./tmux.conf ~/.tmux.conf
+cp ./zshrc ~/.zshrc
 cp ./Xresources ~/.Xresources
 cp ./xinitrc ~/.xinitrc
 sudo cp ./pacman.conf /etc/pacman.conf
@@ -51,6 +54,9 @@ cp -r ./polybar ~/.config/
 cp -r ./i3 ~/.config/
 cp -r ./myPersonalConf ~/.config
 cp -r ./wallpaper ~/.config/wallpaper
+cp -r ./dunst ~/.config/wallpaper
+cp -r ./ranger ~/.config/wallpaper
+cp -r ./zsh ~/.config/wallpaper
 chmod 777 ~/.config/myPersonalConf/risolviMic.sh
 chmod 777 ~/.config/myPersonalConf/walli_e.sh
 chmod 777 ~/.config/polybar/scripts/scroll_spotify_status.sh
