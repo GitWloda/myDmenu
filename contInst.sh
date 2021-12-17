@@ -20,6 +20,18 @@ shaur -S sublime-text-4
 cd ~/.config/shaur/sublime-text-4 
 #makepkg -si
 cd -
+shaur -S ttf-font-awesome-4
+cd ~/.config/shaur/ttf-font-awesome-4
+makepkg -si
+cd -
+shaur -S otf-font-awesome-5-free
+cd ~/.config/shaur/otf-font-awesome-5-free
+makepkg -si
+cd -
+shaur -S ttf-font-awesome-4/
+cd ~/.config/shaur/ttf-font-awesome-4/
+makepkg -si
+cd -
 ###########
 mkdir -p zscroll
 git clone https://github.com/noctuid/zscroll ~/git/zscroll
