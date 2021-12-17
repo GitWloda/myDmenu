@@ -65,19 +65,18 @@ chmod 777 ~/.config/myPersonalConf/walli_e.sh
 chmod 777 ~/.config/polybar/scripts/scroll_spotify_status.sh
 chmod 777 ~/.config/polybar/scripts/get_spotify_status.sh
 
-startx &
-sleep 5
-konsole -e "
 sudo pacman -S --needed terminator
 terminator -e \"cd ~/git && git clone https:walli_e.sh//github.com/sebastiencs/icons-in-terminal.git && cd icons-in-terminal.git && ./install.sh && cd ..\"
-sudo pacman -Rcns terminator"
+sudo pacman -Rcns terminator
 
-#sudo pacman -S --needed clang gperf rsync wget
-#git clone https://github.com/sebastiencs/ls-icons.git
-#cd ls-icons
-#./bootstrap
-#export CFLAGS=-DNO_TRUE_COLOURS=1 
-#export CC=clang CXX=clang++
-#./configure --prefix=/opt/coreutils
-#make
-#sudo make install
+sudo pacman -S --needed clang gperf rsync wget
+mkdir -p ~/git/ls-icons
+git clone https://github.com/sebastiencs/ls-icons.git ~/git/ls-icons
+cd ls-icons
+./bootstrap
+export CFLAGS=-DNO_TRUE_COLOURS=1 
+export CC=clang CXX=clang++
+./configure --prefix=/opt/coreutils
+make
+sudo make install
+cd -
