@@ -42,7 +42,8 @@ cd ~/.config/shaur/sublime-text-4
 makepkg -si
 cd -
 ###########
-git clone https://github.com/noctuid/zscroll ~/git
+mkdir -p zscroll
+git clone https://github.com/noctuid/zscroll ~/git/zscroll
 cd ~/git/zscroll
 sudo python3 setup.py install
 cd -
