@@ -15,10 +15,10 @@ sudo make install
 cd -
 #shaur -S pulseeffects-legacy i3-gaps-rounded-git polybar whatscli sublime-text-4
 ###########
-shaur -S i3-gaps-rounded-git
-cd ~/.config/shaur/i3-gaps-rounded-git 
-makepkg -si
-cd -
+#shaur -S i3-gaps-rounded-git
+#cd ~/.config/shaur/i3-gaps-rounded-git 
+#makepkg -si
+#cd -
 
 #shaur -S pulseeffects-legacy
 #cd ~/.config/shaur/pulseeffects-legacy 
