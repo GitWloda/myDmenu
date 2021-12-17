@@ -16,27 +16,27 @@ cd -
 #shaur -S pulseeffects-legacy i3-gaps-rounded-git polybar whatscli sublime-text-4
 ###########
 shaur -S i3-gaps-rounded-git
-cd ~/.config/shaur/i3-gaps-rounded-git ~/git
+cd ~/.config/shaur/i3-gaps-rounded-git 
 makepkg -si
 cd -
 
 #shaur -S pulseeffects-legacy
-#cd ~/.config/shaur/pulseeffects-legacy ~/git
+#cd ~/.config/shaur/pulseeffects-legacy 
 #makepkg -si
 #cd -
 
 #shaur -S polybar
-#cd ~/.config/shaur/ipolybar ~/git
+#cd ~/.config/shaur/ipolybar 
 #makepkg -si
 #cd -
 
 #shaur -S whatscli
-#cd ~/.config/shaur/whatscli ~/git
+#cd ~/.config/shaur/whatscli 
 #makepkg -si
 #cd -
 
 #shaur -S sublime-text-4
-#cd ~/.config/shaur/sublime-text-4 ~/git
+#cd ~/.config/shaur/sublime-text-4 
 #makepkg -si
 #cd -
 ###########
