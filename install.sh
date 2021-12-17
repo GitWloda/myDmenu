@@ -20,7 +20,7 @@ cd -
 ###########
 shaur -S i3-gaps-rounded-git
 cd ~/.config/shaur/i3-gaps-rounded-git 
-makepkg -si
+#makepkg -si
 cd -
 ###########
 
