@@ -60,16 +60,16 @@ cp ~/git/polybar ~/.config/polybar
 
 
 #dentro i3
-'sudo pacman -S --needed terminator
-terminator -e "cd ~/git && git clone https://github.com/sebastiencs/icons-in-terminal.git && cd icons-in-terminal.git && ./install.sh && cd .."
-sudo pacman -Rcns terminator
+#sudo pacman -S --needed terminator
+#terminator -e "cd ~/git && git clone https://github.com/sebastiencs/icons-in-terminal.git && cd icons-in-terminal.git && ./install.sh && cd .."
+#sudo pacman -Rcns terminator
 
-sudo pacman -S --needed clang gperf rsync wget
-git clone https://github.com/sebastiencs/ls-icons.git
-cd ls-icons
-./bootstrap
-export CFLAGS=-DNO_TRUE_COLOURS=1 
-export CC=clang CXX=clang++
-./configure --prefix=/opt/coreutils
-make
-sudo make install'
+#sudo pacman -S --needed clang gperf rsync wget
+#git clone https://github.com/sebastiencs/ls-icons.git
+#cd ls-icons
+#./bootstrap
+#export CFLAGS=-DNO_TRUE_COLOURS=1 
+#export CC=clang CXX=clang++
+#./configure --prefix=/opt/coreutils
+#make
+#sudo make install
