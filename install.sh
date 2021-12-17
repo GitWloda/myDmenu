@@ -9,7 +9,8 @@ sudo pacman -S --needed xorg-server xorg-fonts-encodings xorg-server-common xorg
 mkdir -p ~/git
 
 sudo pacman -S --needed base-devel curl gzip jq skim
-git clone https://github.com/x7429/shaur.git ~/git
+mkdir -p shaur
+git clone https://github.com/x7429/shaur.git ~/git/shaur
 cd ~/git/shaur
 sudo make install
 cd -
