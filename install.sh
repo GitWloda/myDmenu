@@ -13,33 +13,34 @@ mkdir -p shaur
 git clone https://github.com/x7429/shaur.git ~/git/shaur
 cd ~/git/shaur
 sudo make install
+shaur -y
 cd -
 #shaur -S pulseeffects-legacy i3-gaps-rounded-git polybar whatscli sublime-text-4
 ###########
-#shaur -S i3-gaps-rounded-git
-#cd ~/.config/shaur/i3-gaps-rounded-git 
-#makepkg -si
-#cd -
+shaur -S i3-gaps-rounded-git
+cd ~/.config/shaur/i3-gaps-rounded-git 
+makepkg -si
+cd -
 
-#shaur -S pulseeffects-legacy
-#cd ~/.config/shaur/pulseeffects-legacy 
-#makepkg -si
-#cd -
+shaur -S pulseeffects-legacy
+cd ~/.config/shaur/pulseeffects-legacy 
+makepkg -si
+cd -
 
-#shaur -S polybar
-#cd ~/.config/shaur/ipolybar 
-#makepkg -si
-#cd -
+shaur -S polybar
+cd ~/.config/shaur/ipolybar 
+makepkg -si
+cd -
 
-#shaur -S whatscli
-#cd ~/.config/shaur/whatscli 
-#makepkg -si
-#cd -
+shaur -S whatscli
+cd ~/.config/shaur/whatscli 
+makepkg -si
+cd -
 
-#shaur -S sublime-text-4
-#cd ~/.config/shaur/sublime-text-4 
-#makepkg -si
-#cd -
+shaur -S sublime-text-4
+cd ~/.config/shaur/sublime-text-4 
+makepkg -si
+cd -
 ###########
 git clone https://github.com/noctuid/zscroll ~/git
 cd ~/git/zscroll
