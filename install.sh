@@ -53,7 +53,7 @@ sudo make install
 cd -
 cp ./Xresources ~/.Xresources
 cp ./xinitrc ~/.xinitrc
-cp ./pacman.conf /etc/pacman.conf
+sudo cp ./pacman.conf /etc/pacman.conf
 cp -r ./picom ~/.config/
 #picom --config=~/.config/picom/picom.conf
 cp -r ./polybar ~/.config/
