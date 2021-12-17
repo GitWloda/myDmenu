@@ -20,25 +20,25 @@ cd ~/.config/shaur/i3-gaps-rounded-git ~/git
 makepkg -si
 cd -
 
-shaur -S pulseeffects-legacy
-cd ~/.config/shaur/pulseeffects-legacy ~/git
-makepkg -si
-cd -
+#shaur -S pulseeffects-legacy
+#cd ~/.config/shaur/pulseeffects-legacy ~/git
+#makepkg -si
+#cd -
 
-shaur -S polybar
-cd ~/.config/shaur/ipolybar ~/git
-makepkg -si
-cd -
+#shaur -S polybar
+#cd ~/.config/shaur/ipolybar ~/git
+#makepkg -si
+#cd -
 
-shaur -S whatscli
-cd ~/.config/shaur/whatscli ~/git
-makepkg -si
-cd -
+#shaur -S whatscli
+#cd ~/.config/shaur/whatscli ~/git
+#makepkg -si
+#cd -
 
-shaur -S sublime-text-4
-cd ~/.config/shaur/sublime-text-4 ~/git
-makepkg -si
-cd -
+#shaur -S sublime-text-4
+#cd ~/.config/shaur/sublime-text-4 ~/git
+#makepkg -si
+#cd -
 ###########
 git clone https://github.com/noctuid/zscroll ~/git
 cd ~/git/zscroll
