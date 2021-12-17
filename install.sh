@@ -28,7 +28,7 @@ makepkg -si
 cd -
 
 shaur -S polybar
-cd ~/.config/shaur/ipolybar 
+cd ~/.config/shaur/polybar 
 makepkg -si
 cd -
 
