@@ -59,12 +59,13 @@ cp -r ./picom ~/.config/
 cp -r ./polybar ~/.config/
 cp -r ./i3 ~/.config/
 cp -r ./myPersonalConf ~/.config
+cp -r ./wallpaper ~/.config/wallpaper
 chmod 777 ~/.config/myPersonalConf/risolviMic.sh
 chmod 777 ~/.config/myPersonalConf/walli_e.sh
-chmod 777 ~/.config/polybar/script/scroll_spotify_status.sh
+chmod 777 ~/.config/polybar/scripts/scroll_spotify_status.sh
+chmod 777 ~/.config/polybar/scripts/get_spotify_status.sh
 
-
-
+startx &
 
 #dentro i3
 #sudo pacman -S --needed terminator
