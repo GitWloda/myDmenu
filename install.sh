@@ -54,10 +54,10 @@ cd -
 cp Xresources ~/.Xresources
 cp xinitrc ~/.xinitrc
 mkdir -p ~/.config/picom
-cp ~/git/picom ~/.config/picom
+cp ./picom ~/.config/picom
 #picom --config=~/.config/picom/picom.conf
 mkdir -p ~/.config/polybar
-cp ~/git/polybar ~/.config/polybar
+cp ./polybar ~/.config/polybar
 
 
 
