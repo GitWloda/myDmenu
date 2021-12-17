@@ -58,13 +58,16 @@ cp -r ./picom ~/.config/
 #picom --config=~/.config/picom/picom.conf
 cp -r ./polybar ~/.config/
 cp -r ./i3 ~/.config/
+cp -r ./myPersonalConf ~/.config
+chmod 777 ~/.config/myPersonalConf/risolviMic.sh
+chmod 777 ~/.config/myPersonalConf/walli_e.sh
 
 
 
 
 #dentro i3
 #sudo pacman -S --needed terminator
-#terminator -e "cd ~/git && git clone https://github.com/sebastiencs/icons-in-terminal.git && cd icons-in-terminal.git && ./install.sh && cd .."
+#terminator -e "cd ~/git && git clone https:walli_e.sh//github.com/sebastiencs/icons-in-terminal.git && cd icons-in-terminal.git && ./install.sh && cd .."
 #sudo pacman -Rcns terminator
 
 #sudo pacman -S --needed clang gperf rsync wget
