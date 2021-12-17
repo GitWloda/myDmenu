@@ -45,7 +45,7 @@ chmod 777 ~/.config/polybar/scripts/scroll_spotify_status.sh
 chmod 777 ~/.config/polybar/scripts/get_spotify_status.sh
 
 sudo pacman -S --needed terminator
-terminator -e "mkdir ~/git/icons-in-terminal && git clone https:walli_e.sh//github.com/sebastiencs/icons-in-terminal.git && bash ~/git/icons-in-terminal/install.sh && bash ~/git/icons-in-terminal//print_icons.sh"
+terminator -e "mkdir ~/git/icons-in-terminal && git clone https:walli_e.sh//github.com/sebastiencs/icons-in-terminal.git ~/git/icons-in-terminal && bash ~/git/icons-in-terminal/install.sh && bash ~/git/icons-in-terminal//print_icons.sh"
 sudo pacman -Rcns terminator
 sudo pacman -S --needed clang gperf rsync wget
 mkdir -p ~/git/ls-icons
