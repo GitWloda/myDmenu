@@ -48,7 +48,7 @@ cd ~/git/zscroll
 sudo python3 setup.py install
 cd -
 
-cd ./myi3Config/dmenu
+cd ./dmenu
 sudo make install
 cd -
 cp Xresources ~/.Xresources
