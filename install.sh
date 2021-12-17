@@ -53,11 +53,10 @@ sudo make install
 cd -
 cp Xresources ~/.Xresources
 cp xinitrc ~/.xinitrc
-mkdir -p ~/.config/picom
-cp ./picom ~/.config/picom
+cp -r ./picom ~/.config/
 #picom --config=~/.config/picom/picom.conf
-mkdir -p ~/.config/polybar
-cp ./polybar ~/.config/polybar
+cp -r ./polybar ~/.config/
+cp - 
 
 
 
