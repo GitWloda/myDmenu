@@ -51,7 +51,7 @@ sudo pacman -Rcns terminator
 sudo pacman -S --needed clang gperf rsync wget
 mkdir -p ~/git/ls-icons
 git clone https://github.com/sebastiencs/ls-icons.git ~/git/ls-icons
-cd ls-icons
+cd ~/git/ls-icons
 ./bootstrap
 export CFLAGS=-DNO_TRUE_COLOURS=1 
 export CC=clang CXX=clang++
