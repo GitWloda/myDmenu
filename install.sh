@@ -51,12 +51,13 @@ cd -
 cd ./dmenu
 sudo make install
 cd -
-cp Xresources ~/.Xresources
-cp xinitrc ~/.xinitrc
+cp ./Xresources ~/.Xresources
+cp ./xinitrc ~/.xinitrc
+cp ./pacman.conf /etc/pacman.conf
 cp -r ./picom ~/.config/
 #picom --config=~/.config/picom/picom.conf
 cp -r ./polybar ~/.config/
-cp - 
+cp -r ./i3 ~/.config/
 
 
 
