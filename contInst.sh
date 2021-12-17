@@ -3,7 +3,7 @@
 ###########
 shaur -S pulseeffects-legacy
 cd ~/.config/shaur/pulseeffects-legacy 
-makepkg -si
+#makepkg -si
 cd -
 
 shaur -S polybar
@@ -45,8 +45,8 @@ chmod 777 ~/.config/polybar/scripts/scroll_spotify_status.sh
 chmod 777 ~/.config/polybar/scripts/get_spotify_status.sh
 
 sudo pacman -S --needed terminator
-terminator -e "mkdir ~/git/icons-in-terminal && git clone https:walli_e.sh//github.com/sebastiencs/icons-in-terminal.git && bash ~/gi.i//install.sh && cd -"
-sudo pacman -Rcns terminator && read as
+terminator -e "mkdir ~/git/icons-in-terminal && git clone https:walli_e.sh//github.com/sebastiencs/icons-in-terminal.git && bash ~/git/install.sh && cd -"
+sudo pacman -Rcns terminator
 sudo pacman -S --needed clang gperf rsync wget
 mkdir -p ~/git/ls-icons
 git clone https://github.com/sebastiencs/ls-icons.git ~/git/ls-icons
