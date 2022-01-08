@@ -17,9 +17,7 @@ cp ./tmux.conf ~/.tmux.conf
 
 cp ./zshrc ~/.zshrc
 sudo pacman -S zsh
-zsh
-sudo chsh -s /bin/zsh root
-chsh -s /bin/zsh virt
+chsh -s /usr/bin/zsh
 
 cp ./Xresources ~/.Xresources
 cp ./xinitrc ~/.xinitrc
