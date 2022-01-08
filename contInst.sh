@@ -16,7 +16,7 @@ cp ./alacritty.yml ~/.alacritty.yml
 cp ./tmux.conf ~/.tmux.conf
 
 cp ./zshrc ~/.zshrc
-sudo pacman -S zsh
+sudo pacman --noconfirm -S zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 chsh -s /usr/bin/zsh
 
@@ -38,10 +38,10 @@ chmod 777 ~/.config/myPersonalConf/walli_e.sh
 chmod 777 ~/.config/polybar/scripts/scroll_spotify_status.sh
 chmod 777 ~/.config/polybar/scripts/get_spotify_status.sh
 
-sudo pacman -S --needed terminator
+sudo pacman --noconfirm -S --needed terminator
 terminator -e "mkdir ~/git/icons-in-terminal && git clone https://github.com/sebastiencs/icons-in-terminal.git ~/git/icons-in-terminal && cd ~/git/icons-in-terminal && ./install.sh && ./print_icons.sh && cd - read asd"
-sudo pacman -Rcns terminator
-sudo pacman -S --needed clang gperf rsync wget
+sudo pacman --noconfirm -Rcns terminator
+sudo pacman --noconfirm -S --needed clang gperf rsync wget
 mkdir -p ~/git/ls-icons
 git clone https://github.com/sebastiencs/ls-icons.git ~/git/ls-icons
 cd ~/git/ls-icons
