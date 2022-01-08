@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S --needed feh git python-pywal ttf-dejavu alacritty discord nemo htop pulseaudio pavucontrol picom dunst numlockx chromium noto-fonts-emoji
+sudo pacman -S --needed bat feh git python-pywal ttf-dejavu alacritty discord nemo htop pulseaudio pavucontrol picom dunst numlockx chromium noto-fonts-emoji
 
 
 #NVIDIA -KernelLinux :
