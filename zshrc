@@ -39,6 +39,8 @@ alias dira='lsa -d */ .*/'
 alias diral='dira -w1'
 alias rmrf='rm -rf'
 alias vim="nvim"
+alias bat="cat"
+alias cat="bat"
 alias su='echo "$(whoami) are you sure what you are going to do?" && su && echo "goodbye ROOT... Hello $(whoami)" && notify-send  "goodbye ROOT... Hello $(whoami)"'
 alias LOL='notify-send  "STARTING LOL" && sudo sh -c "sysctl -w abi.vsyscall32=0" && lutris "rungame/league-of-legends"'
 alias WP="whatscli"
