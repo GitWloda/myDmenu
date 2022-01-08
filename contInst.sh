@@ -17,6 +17,7 @@ cp ./tmux.conf ~/.tmux.conf
 
 cp ./zshrc ~/.zshrc
 sudo pacman -S zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 chsh -s /usr/bin/zsh
 
 cp ./Xresources ~/.Xresources
