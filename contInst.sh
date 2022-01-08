@@ -14,7 +14,13 @@ sudo make install
 cd -
 cp ./alacritty.yml ~/.alacritty.yml
 cp ./tmux.conf ~/.tmux.conf
+
 cp ./zshrc ~/.zshrc
+sudo pacman -S zsh
+zsh
+sudo chsh -s /bin/zsh root
+chsh -s /bin/zsh virt
+
 cp ./Xresources ~/.Xresources
 cp ./xinitrc ~/.xinitrc
 sudo cp ./pacman.conf /etc/pacman.conf
