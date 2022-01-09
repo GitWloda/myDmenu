@@ -31,9 +31,9 @@ cp -r ./polybar ~/.config/
 cp -r ./i3 ~/.config/
 cp -r ./myPersonalConf ~/.config
 cp -r ./wallpaper ~/.config/wallpaper
-cp -r ./dunst ~/.config/wallpaper
-cp -r ./ranger ~/.config/wallpaper
-cp -r ./zsh ~/.config/wallpaper
+cp -r ./dunst ~/.config
+cp -r ./ranger ~/.config
+cp -r ./zsh ~/.config
 chmod 777 ~/.config/myPersonalConf/risolviMic.sh
 chmod 777 ~/.config/myPersonalConf/walli_e.sh
 chmod 777 ~/.config/polybar/scripts/scroll_spotify_status.sh
