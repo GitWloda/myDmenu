@@ -1,6 +1,6 @@
 #!/bin/bash
 
-shaur -S fd pulseeffects-legacy polybar whatscli sublime-text-4 ttf-font-awesome-4 otf-font-awesome-5-free ttf-font-awesome-4/
+shaur -S fd ueberzug ranger pulseeffects-legacy polybar whatscli sublime-text-4 ttf-font-awesome-4 otf-font-awesome-5-free ttf-font-awesome-4/
 
 ###########
 mkdir -p zscroll
@@ -31,9 +31,10 @@ cp -r ./polybar ~/.config/
 cp -r ./i3 ~/.config/
 cp -r ./myPersonalConf ~/.config
 cp -r ./wallpaper ~/.config/wallpaper
-cp -r ./dunst ~/.config
-cp -r ./ranger ~/.config
+cp -r ./dunst ~/.config/config
+cp -r ./ranger ~/.config/config
 cp -r ./zsh ~/.config
+chmod 777 ~/.config/scope.sh
 chmod 777 ~/.config/myPersonalConf/risolviMic.sh
 chmod 777 ~/.config/myPersonalConf/walli_e.sh
 chmod 777 ~/.config/polybar/scripts/scroll_spotify_status.sh
