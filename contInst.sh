@@ -1,6 +1,6 @@
 #!/bin/bash
 
-shaur -S pulseeffects-legacy polybar whatscli sublime-text-4 ttf-font-awesome-4 otf-font-awesome-5-free ttf-font-awesome-4/
+shaur -S fd pulseeffects-legacy polybar whatscli sublime-text-4 ttf-font-awesome-4 otf-font-awesome-5-free ttf-font-awesome-4/
 
 ###########
 mkdir -p zscroll
