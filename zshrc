@@ -19,10 +19,6 @@ setopt PROMPT_SUBST
 #ghost autocompletion
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-
-
-
-
 #add icons in ls
 source ~/.local/share/icons-in-terminal/icons_bash.sh
 
@@ -45,14 +41,14 @@ alias su='echo "$(whoami) are you sure what you are going to do?" && su && echo 
 alias LOL='notify-send  "STARTING LOL" && sudo sh -c "sysctl -w abi.vsyscall32=0" && lutris "rungame/league-of-legends"'
 alias WP="whatscli"
 
+
+
+clone()(
+        git clone https://github.com/$1
+)
+
 #color scheme for new terminal
 cat ~/.cache/wal/sequences
 
 #arrow PS1 like parrot
 PROMPT="┌─[%i@%m]-[%~]"$'\n'"└───> "
-
-#
-#old my PS1 settin
-#
-#export PS1='\[\e[1;36m\][\u@\H \[\e[1;33m\]\w\[\e[1;36m\]]\$ \[\e[0m\]'
-#PS1='[\u@\h \W]\$ '
