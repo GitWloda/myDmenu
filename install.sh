@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo cp ./pacman.conf /etc/pacman.conf
+sudo pacman -Suyy
 sudo pacman --noconfirm -S --needed fd ffmpegthumbnailer python-pdftotext  ueberzug ranger bat feh git python-pywal ttf-dejavu alacritty discord nemo htop pulseaudio pavucontrol picom dunst numlockx chromium noto-fonts-emoji zsh-autosuggestions
 
 #NVIDIA -KernelLinux :
