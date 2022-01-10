@@ -22,7 +22,7 @@ mv zsh-autosuggestions ~/.config/zsh/
 chsh -s /usr/bin/zsh
 
 unzip extChromium.zip
-cp -r ./extChromium ~/.config/chromium/
+cp -r ./extChromium/* ~/.config/chromium/Default
 
 cp ./Xresources ~/.Xresources
 cp ./xinitrc ~/.xinitrc
