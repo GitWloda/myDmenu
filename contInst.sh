@@ -26,8 +26,6 @@ cp -r ./extChromium ~/.config/chromium/
 
 cp ./Xresources ~/.Xresources
 cp ./xinitrc ~/.xinitrc
-sudo cp ./pacman.conf /etc/pacman.conf
-sudo pacman -Suyy
 cp -r ./picom ~/.config/
 #picom --config=~/.config/picom/picom.conf
 cp -r ./polybar ~/.config/
