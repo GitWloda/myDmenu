@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo cp ./pacman.conf /etc/pacman.conf
 sudo pacman -Suyy
-sudo pacman --noconfirm -S --needed fd ffmpegthumbnailer python-pdftotext  ueberzug ranger bat feh git python-pywal ttf-dejavu alacritty discord nemo htop pulseaudio pavucontrol picom dunst numlockx chromium noto-fonts-emoji zsh-autosuggestions
+sudo pacman --noconfirm -S --needed fd unzip ffmpegthumbnailer python-pdftotext  ueberzug ranger bat feh git python-pywal ttf-dejavu alacritty discord nemo htop pulseaudio pavucontrol picom dunst numlockx chromium noto-fonts-emoji zsh-autosuggestions
 
 #NVIDIA -KernelLinux :
 #sudo pacman --noconfirm -S --needed nvidia nvidia-utils nvidia-settings opencl-nvidia xorg-server xorg-fonts-encodings xorg-server-common xorg-setxkbmap xorg-xauth xorg-xinit xorg-xkbcomp xorg-xmodmap xorg-xprop xorg-xrandr xorg-xrdb xorg-xset
