@@ -21,6 +21,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions
 mv zsh-autosuggestions ~/.config/zsh/
 chsh -s /usr/bin/zsh
 
+unzip extChromium.zip
+cp -r ./extChromium ~/.config/chromium/
+
 cp ./Xresources ~/.Xresources
 cp ./xinitrc ~/.xinitrc
 sudo cp ./pacman.conf /etc/pacman.conf
