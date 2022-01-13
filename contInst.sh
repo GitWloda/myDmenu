@@ -26,6 +26,7 @@ cp -r ./extChromium/* ~/.config/chromium/Default
 
 cp ./Xresources ~/.Xresources
 cp ./xinitrc ~/.xinitrc
+cp ./changeColorGlave.sh ~/.config/myPersonalConf/changeColorGlave.sh
 cp -r ./picom ~/.config/
 #picom --config=~/.config/picom/picom.conf
 cp -r ./polybar ~/.config/
@@ -40,6 +41,7 @@ chmod 777 ~/.config/myPersonalConf/risolviMic.sh
 chmod 777 ~/.config/myPersonalConf/walli_e.sh
 chmod 777 ~/.config/polybar/scripts/scroll_spotify_status.sh
 chmod 777 ~/.config/polybar/scripts/get_spotify_status.sh
+chmod 777 ~/.config/myPersonalConf/changeColorGlave.sh
 
 sudo pacman --noconfirm -S --needed terminator
 terminator -e "mkdir ~/git/icons-in-terminal && git clone https://github.com/sebastiencs/icons-in-terminal.git ~/git/icons-in-terminal && cd ~/git/icons-in-terminal && ./install.sh && ./print_icons.sh && cd - read asd"
