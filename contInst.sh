@@ -27,6 +27,10 @@ cp -r ./extChromium/* ~/.config/chromium/Default
 cp ./Xresources ~/.Xresources
 cp ./xinitrc ~/.xinitrc
 cp ./changeColorGlave.sh ~/.config/myPersonalConf/changeColorGlave.sh
+cd  ~/.config/
+glava --copy-config
+cd -
+cp ./rc.glsl ~/.config/glava/~/.config
 cp -r ./picom ~/.config/
 #picom --config=~/.config/picom/picom.conf
 cp -r ./polybar ~/.config/
