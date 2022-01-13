@@ -46,6 +46,7 @@ chmod 777 ~/.config/myPersonalConf/walli_e.sh
 chmod 777 ~/.config/polybar/scripts/scroll_spotify_status.sh
 chmod 777 ~/.config/polybar/scripts/get_spotify_status.sh
 chmod 777 ~/.config/myPersonalConf/changeColorGlave.sh
+chmod 777 ~/.config/polybar/lauch.sh
 
 sudo pacman --noconfirm -S --needed terminator
 terminator -e "mkdir ~/git/icons-in-terminal && git clone https://github.com/sebastiencs/icons-in-terminal.git ~/git/icons-in-terminal && cd ~/git/icons-in-terminal && ./install.sh && ./print_icons.sh && cd - read asd"
