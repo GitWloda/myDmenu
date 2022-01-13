@@ -9,6 +9,14 @@ cd ~/git/zscroll
 sudo python3 setup.py install
 cd -
 
+mkdir -p glava
+git clone https://github.com/IsaacHorvath/glava ~/git/glava
+cd ~/git/glava
+meson build --prefix /usr
+ninja -C build
+sudo ninja -C build install
+cd -
+
 cd ./dmenu
 sudo make install
 cd -
