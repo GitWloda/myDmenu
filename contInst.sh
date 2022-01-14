@@ -1,6 +1,13 @@
 #!/bin/bash
 
 shaur -S pulseeffects-legacy polybar whatscli sublime-text-4 ttf-font-awesome-4
+sudo pip install wpgtk
+wpg
+curl https://raw.githubusercontent.com/deviantfero/wpgtk/master/wpgtk/misc/wpg-install.sh -o ~/wpg.sh
+chmod 777 wpg.sh
+./wpg.sh -g
+mkdir -p ~/.config/zsettingsd
+echo "Net/ThemeName \"FlatColor\"" > ~/.config/zsettingsd/zsettingsd.conf
 
 ###########
 mkdir -p zscroll
