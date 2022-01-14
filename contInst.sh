@@ -12,8 +12,8 @@ pywal-discord
 
 wpg
 curl https://raw.githubusercontent.com/deviantfero/wpgtk/master/wpgtk/misc/wpg-install.sh -o ~/wpg.sh
-chmod 777 wpg.sh
-./wpg.sh -g
+chmod 777 ~/wpg.sh
+ ~/wpg.sh
 mkdir -p ~/.config/xsettingsd
 echo "Net/ThemeName \"FlatColor\"" > ~/.config/xsettingsd/xsettingsd.conf
 
