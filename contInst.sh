@@ -16,6 +16,12 @@ yarn install
 yarn dev &
 cd -
 
+mkdir -p pywal-discord
+git clone https://github.com/FilipLitwora/pywal-discord.git
+cd pywal-discord
+./install
+cd -
+
 mkdir -p glava
 git clone https://github.com/IsaacHorvath/glava ~/git/glava
 cd ~/git/glava
