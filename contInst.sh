@@ -16,7 +16,7 @@ curl https://raw.githubusercontent.com/deviantfero/wpgtk/master/wpgtk/misc/wpg-i
 chmod 777 wpg.sh
 ./wpg.sh -g
 mkdir -p ~/.config/xsettingsd
-echo "Net/ThemeName \"FlatColor\"" > ~/.config/zsettingsd/xsettingsd.conf
+echo "Net/ThemeName \"FlatColor\"" > ~/.config/xsettingsd/xsettingsd.conf
 
 ###########
 mkdir -p zscroll
