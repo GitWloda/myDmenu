@@ -1,6 +1,6 @@
 #!/bin/bash
 
-shaur -S gtk-theme-flat-color-git betterdiscordctl betterdiscord-installer pulseeffects-legacy polybar whatscli sublime-text-4 ttf-font-awesome-4
+shaur -S wpgtk-git gtk-theme-flat-color-git betterdiscordctl betterdiscord-installer pulseeffects-legacy polybar whatscli sublime-text-4 ttf-font-awesome-4
 
 mkdir -p pywal-discord
 git clone https://github.com/FilipLitwora/pywal-discord.git ~/git/pywal-discord
