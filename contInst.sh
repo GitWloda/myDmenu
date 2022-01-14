@@ -2,6 +2,11 @@
 
 shaur -S betterdiscordctl betterdiscord-installer pulseeffects-legacy polybar whatscli sublime-text-4 ttf-font-awesome-4
 
+mkdir -p pywal-discord
+git clone https://github.com/FilipLitwora/pywal-discord.git ~/git/pywal-discord
+cd ~/git/pywal-discord
+./install
+cd -
 betterdiscordctl-installer
 pywal-discord
 
