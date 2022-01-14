@@ -2,7 +2,7 @@
 
 shaur -S betterdiscordctl betterdiscord-installer pulseeffects-legacy polybar whatscli sublime-text-4 ttf-font-awesome-4
 
-betterdiscordctl -i
+betterdiscordctl-install
 
 sudo pip install wpgtk
 wpg
