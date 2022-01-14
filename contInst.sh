@@ -5,7 +5,7 @@ shaur -S betterdiscordctl betterdiscord-installer pulseeffects-legacy polybar wh
 mkdir -p pywal-discord
 git clone https://github.com/FilipLitwora/pywal-discord.git ~/git/pywal-discord
 cd ~/git/pywal-discord
-./install
+sudo ./install
 cd -
 betterdiscordctl-installer
 pywal-discord
