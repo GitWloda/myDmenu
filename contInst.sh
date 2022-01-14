@@ -9,6 +9,13 @@ cd ~/git/zscroll
 sudo python3 setup.py install
 cd -
 
+mkdir -p BetterDiscord
+git clone https://github.com/BetterDiscord/installer ~/git/BetterDiscord
+cd BetterDiscord
+yarn install
+yarn dev &
+cd -
+
 mkdir -p glava
 git clone https://github.com/IsaacHorvath/glava ~/git/glava
 cd ~/git/glava
