@@ -1,6 +1,9 @@
 #!/bin/bash
 
-shaur -S pulseeffects-legacy polybar whatscli sublime-text-4 ttf-font-awesome-4
+shaur -S betterdiscordctl betterdiscord-installer pulseeffects-legacy polybar whatscli sublime-text-4 ttf-font-awesome-4
+
+betterdiscordctl -i
+
 sudo pip install wpgtk
 wpg
 curl https://raw.githubusercontent.com/deviantfero/wpgtk/master/wpgtk/misc/wpg-install.sh -o ~/wpg.sh
