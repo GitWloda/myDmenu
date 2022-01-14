@@ -49,7 +49,7 @@ clone()(
 )
 
 #color scheme for new terminal
-cat ~/.cache/wal/sequences
+cat ~/.cache/wal/sequences &
 
 #arrow PS1 like parrot
 PROMPT="┌─[%i@%m]-[%~]"$'\n'"└───> "
