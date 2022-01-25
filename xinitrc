@@ -18,7 +18,7 @@ numlockx &
 #picom --experimental-backends &
 
 #set notific deamon
-dunst &
+dunst --systemd-activation &
 
 #set wallpaper
 $HOME/.config/myPersonalConf/walli_e.sh &
