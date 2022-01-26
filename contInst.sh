@@ -17,7 +17,6 @@ chmod 777 ~/wpg.sh
 mkdir -p ~/.config/xsettingsd
 echo "Net/ThemeName \"FlatColor\"" > ~/.config/xsettingsd/xsettingsd.conf
 
-pwd
 mkdir -p ~/.config/
 cp -r ./dunst ~/.config/
 
