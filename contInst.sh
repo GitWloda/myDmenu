@@ -12,6 +12,8 @@ cd -
 betterdiscord-installer
 pywal-discord
 
+lxappearance
+
 wpg
 curl https://raw.githubusercontent.com/deviantfero/wpgtk/master/wpgtk/misc/wpg-install.sh -o ~/wpg.sh
 chmod 777 ~/wpg.sh
