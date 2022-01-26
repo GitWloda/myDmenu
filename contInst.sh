@@ -19,7 +19,7 @@ echo "Net/ThemeName \"FlatColor\"" > ~/.config/xsettingsd/xsettingsd.conf
 
 mkdir -p ~/.config/
 cp -r ./dunst ~/.config/
-
+dunst -c ~/.config/dunst/dunstrc
 
 ###########
 mkdir -p zscroll
