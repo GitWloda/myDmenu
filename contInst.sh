@@ -17,6 +17,10 @@ chmod 777 ~/wpg.sh
 mkdir -p ~/.config/xsettingsd
 echo "Net/ThemeName \"FlatColor\"" > ~/.config/xsettingsd/xsettingsd.conf
 
+mkdir -p ~/.config/
+cp ./dunst ~/.config/
+
+
 ###########
 mkdir -p zscroll
 git clone https://github.com/noctuid/zscroll ~/git/zscroll
