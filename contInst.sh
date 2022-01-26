@@ -7,7 +7,7 @@ git clone https://github.com/FilipLitwora/pywal-discord.git ~/git/pywal-discord
 cd ~/git/pywal-discord
 sudo ./install
 cd -
-betterdiscordctl-installer
+betterdiscord-installer
 pywal-discord
 
 wpg
@@ -17,8 +17,9 @@ chmod 777 ~/wpg.sh
 mkdir -p ~/.config/xsettingsd
 echo "Net/ThemeName \"FlatColor\"" > ~/.config/xsettingsd/xsettingsd.conf
 
+pwd
 mkdir -p ~/.config/
-cp ./dunst ~/.config/
+cp -r ./dunst ~/.config/
 
 
 ###########
