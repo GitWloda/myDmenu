@@ -18,7 +18,7 @@ sudo make install
 shaur -y
 cd -
 shaur -S i3-gaps-rounded-git
-
+cp -r ./i3 ~/.config
 chmod 777 ./contInst.sh
 echo "i3-sensible-terminal -e \"./contInst.sh\" & " > ~/.xinitrc
 echo "exec i3" >> ~/.xinitrc
