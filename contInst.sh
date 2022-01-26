@@ -87,6 +87,7 @@ cp -r ./zsh ~/.config
 chmod 777 ~/.config/scope.sh
 chmod 777 ~/.config/myPersonalConf/risolviMic.sh
 chmod 777 ~/.config/myPersonalConf/walli_e.sh
+chmod 777 ~/.config/polybar/launch.sh
 chmod 777 ~/.config/polybar/scripts/scroll_spotify_status.sh
 chmod 777 ~/.config/polybar/scripts/get_spotify_status.sh
 chmod 777 ~/.config/myPersonalConf/changeColorGlave.sh
