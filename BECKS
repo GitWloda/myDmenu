@@ -1,0 +1,36 @@
+#!/bin/sh
+theUser=$USER
+echo "insert your user name (if your user is $USER, press ENTER)"
+read theUser
+
+case $theUser in
+	"")
+		theUser=$USER
+	;;
+esac
+
+dirnamedate=/home/BACKUP/$theUser-$(date +'%m-%d-%Y')
+myuser=/home/$theUser
+
+case $1 in
+	"-b")
+		sudo mkdir -p $dirnamedate
+		sudo cp -rvu $myuser $dirnamedate | cut -d"'" -f2 
+	;;
+	"-u")
+		ls /home/BACKUP | cut -d"-" -f2- | nl -w2 -s'-> '
+		read selectdate
+		selectDir=$(ls /home/BACKUP | head -$selectdate | tail -1)
+		selectDir=/home/BACKUP/$selectDir
+		echo $selectDir
+		sudo chown -R $theUser:users $selectDir
+		cp -rv $selectDir/$theUser/* $myuser | cut -d"'" -f4
+		cp -rv $selectDir/$theUser/.* $myuser | cut -d"'" -f4
+	;;
+	*)
+		echo "ERROR (0)"
+		echo "-b -> backup"
+		echo "-u -> update"
+	;;
+esac
+
